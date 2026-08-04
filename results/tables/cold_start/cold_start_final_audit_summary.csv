@@ -1,0 +1,13 @@
+"check","result","expected","passed"
+"Total observations",90,90,TRUE
+"Unique run identifiers",90,90,TRUE
+"Runtime groups",3,3,TRUE
+"Runtime groups with 30 observations",3,3,TRUE
+"Session-runtime groups",6,6,TRUE
+"Session-runtime groups with 15 observations",6,6,TRUE
+"Duplicate runtime-repetition combinations",0,0,TRUE
+"Missing runtime-repetition combinations",0,0,TRUE
+"Failed observations",0,0,TRUE
+"Unexpected readiness signals",0,0,TRUE
+"Missing startup times",0,0,TRUE
+"Non-positive startup times",0,0,TRUE
