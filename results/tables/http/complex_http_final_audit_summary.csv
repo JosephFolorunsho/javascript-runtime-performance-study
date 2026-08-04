@@ -1,0 +1,13 @@
+"check","result","expected","passed"
+"Total observations",90,90,TRUE
+"Unique run identifiers",90,90,TRUE
+"Runtime-connection groups",9,9,TRUE
+"Configurations with 10 repetitions",9,9,TRUE
+"Duplicate configurations",0,0,TRUE
+"Missing configurations",0,0,TRUE
+"Failed observations",0,0,TRUE
+"Quality warnings",0,0,TRUE
+"HTTP errors",0,0,TRUE
+"Timeouts",0,0,TRUE
+"Response mismatches",0,0,TRUE
+"Non-2xx responses",0,0,TRUE

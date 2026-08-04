@@ -1,0 +1,49 @@
+﻿# Dependencies
+node_modules/
+
+# Logs and runtime files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.pid
+*.pid.lock
+
+# Test coverage, caches, and temporary files
+coverage/
+.nyc_output/
+.cache/
+.tmp/
+tmp/
+temp/
+
+# Local environment files (keep shareable examples)
+.env
+.env.*
+!.env.example
+
+# Jupyter and R session files
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Ruserdata
+
+# Editor settings and swap files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Data exports: keep only CSV files at any depth
+/data/**
+!/data/**/
+!/data/*.csv
+!/data/**/*.csv

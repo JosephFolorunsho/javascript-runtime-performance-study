@@ -1,0 +1,10 @@
+"runtime","connections","observations","mean_of_mean_latency_ms","median_of_mean_latency_ms","standard_deviation_mean_latency_ms","mean_p90_latency_ms","mean_p97_5_latency_ms","mean_p99_latency_ms","maximum_p99_latency_ms","maximum_observed_latency_ms"
+"Node.js",10,3,0.09,0.07,0.03,0.33,1,1.33,2,34
+"Node.js",50,3,2.99,2.99,0.07,4,5,7.33,8,110
+"Node.js",100,3,6.56,6.54,0.08,8,9.67,14,14,106
+"Bun",10,3,0.19,0.15,0.07,0,3.33,3.33,4,79
+"Bun",50,3,2.87,2.64,0.42,4.33,5.67,7.33,9,78
+"Bun",100,3,5.77,5.76,0.16,7,8.67,11.33,12,105
+"Deno",10,3,0.06,0.04,0.03,0,1,1,1,38
+"Deno",50,3,2.65,2.38,0.54,3.33,4.67,6.67,9,73
+"Deno",100,3,6.33,5.68,1.52,8,12.33,19,34,134
