@@ -1,0 +1,18 @@
+"check","result","expected","passed"
+"Total observations",60,60,TRUE
+"Unique run identifiers",60,60,TRUE
+"Runtime-operation groups",6,6,TRUE
+"Groups with 10 observations",6,6,TRUE
+"Session-runtime-operation groups",12,12,TRUE
+"Session groups with 5 observations",12,12,TRUE
+"Duplicate configurations",0,0,TRUE
+"Missing configurations",0,0,TRUE
+"Failed observations",0,0,TRUE
+"Incorrect byte counts",0,0,TRUE
+"Missing durations",0,0,TRUE
+"Non-positive durations",0,0,TRUE
+"Missing throughput values",0,0,TRUE
+"Non-positive throughput values",0,0,TRUE
+"Non-zero exit codes",0,0,TRUE
+"Unvalidated output files",0,0,TRUE
+"Temporary output files not removed",0,0,TRUE
