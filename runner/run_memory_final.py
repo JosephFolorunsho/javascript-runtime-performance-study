@@ -37,8 +37,8 @@ EXPECTED_CHECKSUM = {
 }
 
 SESSION_REPETITIONS = {
-    1: range(1, 6),
-    2: range(6, 11),
+    1: range(1, 11),
+    2: range(11, 21),
 }
 
 DEFAULT_SAMPLE_INTERVAL_SECONDS = 0.02
@@ -99,8 +99,8 @@ def parse_arguments() -> argparse.Namespace:
         type=int,
         choices=(1, 2),
         help=(
-            "Session 1 collects repetitions 1-5; "
-            "session 2 collects repetitions 6-10."
+            "Session 1 collects repetitions 1-10; "
+            "session 2 collects repetitions 11-20."
         ),
     )
     parser.add_argument(
@@ -292,9 +292,9 @@ def collect_metadata(
             "post_ready_sampling_seconds": args.post_ready_seconds,
             "ready_timeout_seconds": args.ready_timeout,
             "cooldown_seconds": args.cooldown,
-            "repetitions_per_runtime_workload": 10,
+            "repetitions_per_runtime_workload": 20,
             "sessions": 2,
-            "total_observations": 60,
+            "total_observations": 120,
             "runtime_order": (
                 "all runtime-workload combinations randomised "
                 "within each repetition"
@@ -826,7 +826,7 @@ def run_observation(
 
     try:
         print(
-            f"\n[{sequence}/30] {run_id}\n"
+            f"\n[{sequence}/60] {run_id}\n"
             f"Runtime: {runtime} | Workload: {workload}"
         )
 
@@ -1101,3 +1101,6 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
+# py -3.13 runner\run_memory_final.py --session 1 --stop-on-failure
+# py -3.13 runner\run_memory_final.py --session 2 --stop-on-failure

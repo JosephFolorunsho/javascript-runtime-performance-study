@@ -1,0 +1,20 @@
+"check","result","expected","passed"
+"Total observations",120,120,TRUE
+"Unique run identifiers",120,120,TRUE
+"Runtime-workload groups",6,6,TRUE
+"Groups with 20 observations",6,6,TRUE
+"Session-runtime-workload groups",12,12,TRUE
+"Session groups with 10 observations",12,12,TRUE
+"Duplicate configurations",0,0,TRUE
+"Missing configurations",0,0,TRUE
+"Failed observations",0,0,TRUE
+"Incorrect allocation sizes",0,0,TRUE
+"Missing median RSS values",0,0,TRUE
+"Non-positive median RSS values",0,0,TRUE
+"Missing peak RSS values",0,0,TRUE
+"Non-positive peak RSS values",0,0,TRUE
+"Median RSS greater than post-ready peak",0,0,TRUE
+"Post-ready peak greater than overall peak",0,0,TRUE
+"Incorrect sampling intervals",0,0,TRUE
+"Incorrect post-ready windows",0,0,TRUE
+"Insufficient post-ready samples",0,0,TRUE
