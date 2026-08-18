@@ -1,0 +1,3 @@
+operation,chi_square,df,p_value,kendalls_w
+Read,20,2,4.5399929762484854e-5,1
+Write,16.8,2,2.248673241788482e-4,0.8400000000000001
