@@ -1,0 +1,4 @@
+group1,group2,median_difference,hodges_lehmann,difference_ci_lower,difference_ci_upper,p_holm,significant,effect_type,effect_size
+Bun,Deno,56.648100000000014,58.62035,52.411699999999996,68.57525,1.5821307897567765e-4,Yes,Rank-biserial correlation,0.7720430107526882
+Node.js,Bun,-34.6422,-33.76665,-39.4002,-26.28895,1.0617077350616466e-7,Yes,Rank-biserial correlation,-0.9698924731182795
+Node.js,Deno,24.687650000000005,25.200599999999994,21.144099999999995,31.917,1.5821307897567765e-4,Yes,Rank-biserial correlation,0.7462365591397849

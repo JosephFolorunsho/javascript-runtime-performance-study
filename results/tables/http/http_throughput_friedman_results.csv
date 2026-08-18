@@ -1,0 +1,4 @@
+workload,connections,chi_square,df,p_value,kendalls_w
+Simple,50,15.8,2,3.707435404590882e-4,0.79
+Simple,100,18.2,2,1.1166580849011478e-4,0.9099999999999999
+Complex,100,20,2,4.5399929762484854e-5,1

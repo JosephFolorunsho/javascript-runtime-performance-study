@@ -1,0 +1,3 @@
+Effect,DFn,DFd,F,p,p<.05,ges,workload,connections
+runtime,2,18,285.819,2.3e-14,*,0.92,Complex,10
+runtime,2,18,1272.711,4.15e-20,*,0.987,Complex,50
