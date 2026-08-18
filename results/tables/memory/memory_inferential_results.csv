@@ -1,0 +1,7 @@
+workload,group1,group2,median_difference,difference_ci_lower,difference_ci_upper,p_raw,p_holm,significant,n_nonzero,effect_type,effect_size,effect_ci_lower,effect_ci_upper
+Idle,Bun,Deno,13.482421875,13.44921875,13.53125,1.9073486328125e-6,1.1444091796875e-5,Yes,20,Rank-biserial correlation,1,1,1
+Idle,Node.js,Bun,-19.220703125,-19.232421875,-19.201171875,1.9073486328125e-6,1.1444091796875e-5,Yes,20,Rank-biserial correlation,-1,-1,-1
+Idle,Node.js,Deno,-5.716796875,-5.76171875,-5.650390625,1.9073486328125e-6,1.1444091796875e-5,Yes,20,Rank-biserial correlation,-1,-1,-1
+Allocated,Bun,Deno,13.060546875,13.044921875,13.099609375,1.9073486328125e-6,1.1444091796875e-5,Yes,20,Rank-biserial correlation,1,1,1
+Allocated,Node.js,Bun,-18.70703125,-18.7265625,-18.693359375,1.9073486328125e-6,1.1444091796875e-5,Yes,20,Rank-biserial correlation,-1,-1,-1
+Allocated,Node.js,Deno,-5.62890625,-5.677734375,-5.5859375,1.9073486328125e-6,1.1444091796875e-5,Yes,20,Rank-biserial correlation,-1,-1,-1

@@ -1,0 +1,3 @@
+workload,chi_square,df,p_value,kendalls_w
+Idle,40,2,2.061153622438558e-9,1
+Allocated,40,2,2.061153622438558e-9,1
